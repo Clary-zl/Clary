@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSMTest:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49af02fe-e7f1-4464-8f99-ab653424c6ce" name="Default Changelist" comment="第一次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SSMTest_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSMTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/dao/BaseDictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/dao/BaseDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/dao/CustomerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/dao/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/pojo/BaseDict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/pojo/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/pojo/QueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/service/BaseDictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/service/impl/BaseDictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/util/NavigationTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/cn/zl/util/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/jsp/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/commons-codec-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/commons-collections-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/commons-pool2-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/json-20131018.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-jms-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-messaging-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/tld/commons.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/css/boot-crm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/css/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/dao/BaseDictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/dao/BaseDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/dao/CustomerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/dao/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/pojo/BaseDict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/pojo/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/pojo/QueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/service/BaseDictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/service/impl/BaseDictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/util/NavigationTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/cn/zl/util/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SSMTest/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/dao/BaseDictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/dao/BaseDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/dao/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/dao/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/pojo/BaseDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/pojo/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/pojo/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/service/BaseDictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/service/impl/BaseDictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/util/NavigationTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/util/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-codec-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool2-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-20131018.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tld/commons.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/boot-crm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/sb-admin-2.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/zl/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/cn/zl/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/cn/zl/service/impl/BaseDictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/zl/controller/CustomerController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.0.5" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.0.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SSMTest" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SSMTest" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SSMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMTest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.zl.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\Idea Projects\SSMTest\web\WEB-INF\lib" />
+      <recent name="D:\JetBrains\Idea Projects\SSMTest\web\WEB-INF" />
+      <recent name="D:\JetBrains\Idea Projects\SSMTest\web" />
+      <recent name="D:\JetBrains\Idea Projects\SSMTest\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 7.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SSMTest_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SSMTest:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSMTest_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSMTest" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="38657" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSMTest:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49af02fe-e7f1-4464-8f99-ab653424c6ce" name="Default Changelist" comment="" />
+      <created>1575509271138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575509271138</updated>
+      <workItem from="1575509283938" duration="36000" />
+      <workItem from="1575509433838" duration="20000" />
+      <workItem from="1575509513169" duration="9000" />
+      <workItem from="1575509531568" duration="1373000" />
+      <workItem from="1575510954069" duration="11000" />
+      <workItem from="1575511734460" duration="634000" />
+      <workItem from="1575512406458" duration="3418000" />
+      <workItem from="1575612000664" duration="716000" />
+      <workItem from="1575615108128" duration="432000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6649000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22989276" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32914925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32914925" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.25104603" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zl/controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/zl/service/impl/BaseDictServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zl/util/NavigationTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zl/service/BaseDictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zl/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/SSMTest_war_exploded/WEB-INF/jsp/customer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/commons.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/customer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7638">
+          <caret line="402" column="40" lean-forward="true" selection-start-line="402" selection-start-column="40" selection-end-line="402" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zl/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
